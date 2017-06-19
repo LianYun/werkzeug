@@ -610,6 +610,7 @@ def run_simple(hostname, port, application, use_reloader=False,
                passthrough_errors=False, ssl_context=None):
     """Start a WSGI application. Optional features include a reloader,
     multithreading and fork support.
+    启动一个 WSGI 应用，可选特征包括 reloader、多线程 和 fork 的支持
 
     This function has a command-line interface too::
 
